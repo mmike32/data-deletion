@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .btn {
+            background-color: #ff4757;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #e84118;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Request Data Deletion</h2>
+        <p>If you want to delete your data associated with this app, please email us at:</p>
+        <p><strong>support@yourwebsite.com</strong></p>
+        <p>Or, click the button below to request deletion automatically:</p>
+        <button class="btn" onclick="requestDeletion()">Request Data Deletion</button>
+    </div>
+
+    <script>
+        function requestDeletion() {
+            alert("Your request has been received. Our team will process it soon.");
+        }
+    </script>
+</body>
+</html>
